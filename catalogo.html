@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalogo CHOGAN | Natalia Girleanu</title>
+  <link rel="stylesheet" href="catalogo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">CHOGAN</a>
+    <a class="whatsapp-top" href="https://wa.me/393203661211" target="_blank">
+      <i class="fa-brands fa-whatsapp"></i> Contattami
+    </a>
+  </header>
+
+  <main>
+    <section class="hero-catalogo">
+      <p>PROFUMI • BEAUTY • BENESSERE</p>
+      <h1>Catalogo CHOGAN</h1>
+      <span>Trova il prodotto perfetto per te.</span>
+    </section>
+
+    <section class="catalogo">
+      <input id="ricerca" type="search" placeholder="Cerca un prodotto, una categoria o un codice...">
+
+      <div id="filtri" class="filtri"></div>
+
+      <p id="conteggio" class="conteggio"></p>
+      <div id="lista-prodotti" class="lista-prodotti"></div>
+    </section>
+  </main>
+
+  <div id="modale" class="modale">
+    <div class="modale-contenuto">
+      <button id="chiudi-modale" aria-label="Chiudi">&times;</button>
+      <img id="modal-img" src="" alt="">
+      <p id="modal-categoria"></p>
+      <h2 id="modal-nome"></h2>
+      <p id="modal-codice"></p>
+      <p id="modal-descrizione"></p>
+      <a id="modal-whatsapp" class="btn-whatsapp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i> Richiedi informazioni
+      </a>
+    </div>
+  </div>
+
+  <a class="whatsapp-float" href="https://wa.me/393203661211" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="prodotti.js"></script>
+  <script src="catalogo.js"></script>
+</body>
+</html>
